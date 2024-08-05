@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Краткий опрос для улучшения качества мероприятия</title>
+    </head>
+    <body>
+        <form action="some_server" method="post">            
+            <div>
+                <h1>Siberian Zvuk</h1>
+    
+                <p>Звуковое сопровождение для вашего события</p>
+            </div>
+    
+            <div>
+                <h2>Какое мероприятие планируется?</h2>
+    
+                <label>
+                    <input type="radio" value="День рождения" name="EventType"> День рождения
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Свадьба" name="EventType"> Свадьба
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Детский праздник" name="EventType"> Детский праздник
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Концерт" name="EventType"> Концерт
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Конференция" name="EventType"> Конференция
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Корпоратив" name="EventType"> Корпоратив
+                </label>
+                </br>
+                <label>
+                    <input type="radio" value="Тематическая вечеринка" name="EventType"> Тематическая вечеринка
+                </label>
+                </br>
+            </div>
+    
+            <div>
+                <h2>Какое дополнительное оборудование потребуется?</h2>
+    
+                <label>
+                    <input type="checkbox"> Телевизор
+                </label>
+                </br>
+                <label>
+                    <input type="checkbox"> Концертный свет
+                </label>
+                </br>
+                <label>
+                    <input type="checkbox"> Длинный канал электропитания
+                </label>
+                </br>
+                <label>
+                    <input type="checkbox"> Стол
+                </label>
+                </br>
+            </div>
+    
+            <div>
+                </br>
+                <a href="http://127.0.0.1:5500/startHtml/page_2.html">Подробнее об оборудовании</a>
+            </div>
+    
+            <div>
+                <h2>Уажите подходящие плейлисты</h2>
+    
+                <select multiple>
+                    <option>Танцивальные</option>
+                    <option>Фон для активных игр</option>
+                    <option>Озвучка магазинов</option>
+                    <option>Деловые встречи</option>
+                </select>
+            </div>
+    
+            <div>
+                <h2>Где будет мероприятие?</h2>
+    
+                <select>
+                    <option>В помещении</option>
+                    <option>На улице</option>
+                </select>
+            </div>
+    
+            <div>
+                <h2>По какому адресу будет мероприятие?</h2>
+    
+                <textarea name="adress"></textarea>
+            </div>
+    
+            <div>
+                <h2>Укажите ФИО</h2>
+    
+                <input type="text" placeholder="Ваше имя" name="name">
+            </div>
+            
+            <div>
+                </br>
+                <button type="submit">Отправить</button>
+            </div>            
+        </form>        
+    </body>
+</html>
