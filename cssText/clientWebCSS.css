@@ -1,0 +1,39 @@
+.clientWeb {
+    width: 39.234%;
+    height: 100%;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    background-color: #FEEED5;
+    color: #666759;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.items p {
+    margin: 8px 0px;
+}
+
+.item {
+    color: #2683a0e5;
+    font-weight: 600;
+}
+
+.course-content p{
+    margin: 10px 0px;
+    font-size: 15px;
+    text-indent: 15px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+p.last{
+    margin-bottom: 0px;
+}
